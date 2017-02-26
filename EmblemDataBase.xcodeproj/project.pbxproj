@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30D52EDBEC24F316D1DF2BD8 /* Pods_EmblemDataBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AABC71AF63C34B87CB5B172 /* Pods_EmblemDataBase.framework */; };
 		84BD4F421E5C14FA0098962A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD4F411E5C14FA0098962A /* AppDelegate.swift */; };
 		84BD4F441E5C14FA0098962A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD4F431E5C14FA0098962A /* ViewController.swift */; };
 		84BD4F471E5C14FA0098962A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BD4F451E5C14FA0098962A /* Main.storyboard */; };
 		84BD4F4A1E5C14FA0098962A /* EmblemDataBase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84BD4F481E5C14FA0098962A /* EmblemDataBase.xcdatamodeld */; };
 		84BD4F4C1E5C14FA0098962A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BD4F4B1E5C14FA0098962A /* Assets.xcassets */; };
 		84BD4F4F1E5C14FA0098962A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BD4F4D1E5C14FA0098962A /* LaunchScreen.storyboard */; };
+		84BD4F571E5C159E0098962A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84BD4F561E5C159E0098962A /* GoogleService-Info.plist */; };
+		84BD4F621E5D51FC0098962A /* AddingUpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD4F611E5D51FC0098962A /* AddingUpcomingViewController.swift */; };
+		84BD4F641E5D55390098962A /* Upcoming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD4F631E5D55390098962A /* Upcoming.swift */; };
+		84BD4F661E5D5E4D0098962A /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD4F651E5D5E4D0098962A /* UpcomingViewController.swift */; };
+		84BD4F681E5D5E8A0098962A /* AddBirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD4F671E5D5E8A0098962A /* AddBirthdayViewController.swift */; };
+		84BD4F6A1E5D5ECE0098962A /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD4F691E5D5ECE0098962A /* CardViewController.swift */; };
+		84BD4F6C1E5D616C0098962A /* postStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD4F6B1E5D616C0098962A /* postStruct.swift */; };
+		84BD4F6E1E5D69160098962A /* UpcomingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD4F6D1E5D69160098962A /* UpcomingCell.swift */; };
+		84BD4F701E5EA5840098962A /* TableViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD4F6F1E5EA5840098962A /* TableViewTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6AABC71AF63C34B87CB5B172 /* Pods_EmblemDataBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmblemDataBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		801C33D8DF9408C710F201B2 /* Pods-EmblemDataBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmblemDataBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmblemDataBase/Pods-EmblemDataBase.debug.xcconfig"; sourceTree = "<group>"; };
 		84BD4F3E1E5C14FA0098962A /* EmblemDataBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmblemDataBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BD4F411E5C14FA0098962A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BD4F431E5C14FA0098962A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +36,16 @@
 		84BD4F4B1E5C14FA0098962A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84BD4F4E1E5C14FA0098962A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84BD4F501E5C14FA0098962A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BD4F561E5C159E0098962A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		84BD4F611E5D51FC0098962A /* AddingUpcomingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddingUpcomingViewController.swift; sourceTree = "<group>"; };
+		84BD4F631E5D55390098962A /* Upcoming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Upcoming.swift; sourceTree = "<group>"; };
+		84BD4F651E5D5E4D0098962A /* UpcomingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		84BD4F671E5D5E8A0098962A /* AddBirthdayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBirthdayViewController.swift; sourceTree = "<group>"; };
+		84BD4F691E5D5ECE0098962A /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		84BD4F6B1E5D616C0098962A /* postStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = postStruct.swift; sourceTree = "<group>"; };
+		84BD4F6D1E5D69160098962A /* UpcomingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpcomingCell.swift; sourceTree = "<group>"; };
+		84BD4F6F1E5EA5840098962A /* TableViewTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewTest.swift; sourceTree = "<group>"; };
+		C3BD053E8D1493E8C53B55A2 /* Pods-EmblemDataBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmblemDataBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmblemDataBase/Pods-EmblemDataBase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30D52EDBEC24F316D1DF2BD8 /* Pods_EmblemDataBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F41029F3D97C183A7189317 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				801C33D8DF9408C710F201B2 /* Pods-EmblemDataBase.debug.xcconfig */,
+				C3BD053E8D1493E8C53B55A2 /* Pods-EmblemDataBase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55D082698D8704D31060967E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AABC71AF63C34B87CB5B172 /* Pods_EmblemDataBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84BD4F351E5C14FA0098962A = {
 			isa = PBXGroup;
 			children = (
+				84BD4F561E5C159E0098962A /* GoogleService-Info.plist */,
 				84BD4F401E5C14FA0098962A /* EmblemDataBase */,
 				84BD4F3F1E5C14FA0098962A /* Products */,
+				1F41029F3D97C183A7189317 /* Pods */,
+				55D082698D8704D31060967E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +99,47 @@
 		84BD4F401E5C14FA0098962A /* EmblemDataBase */ = {
 			isa = PBXGroup;
 			children = (
+				84BD4F5E1E5D40A20098962A /* Data */,
 				84BD4F411E5C14FA0098962A /* AppDelegate.swift */,
-				84BD4F431E5C14FA0098962A /* ViewController.swift */,
-				84BD4F451E5C14FA0098962A /* Main.storyboard */,
-				84BD4F4B1E5C14FA0098962A /* Assets.xcassets */,
 				84BD4F4D1E5C14FA0098962A /* LaunchScreen.storyboard */,
-				84BD4F501E5C14FA0098962A /* Info.plist */,
-				84BD4F481E5C14FA0098962A /* EmblemDataBase.xcdatamodeld */,
+				84BD4F5D1E5D406D0098962A /* Classes */,
+				84BD4F5C1E5D405B0098962A /* ViewContollers */,
+				84BD4F451E5C14FA0098962A /* Main.storyboard */,
+				84BD4F6F1E5EA5840098962A /* TableViewTest.swift */,
+				84BD4F4B1E5C14FA0098962A /* Assets.xcassets */,
 			);
 			path = EmblemDataBase;
+			sourceTree = "<group>";
+		};
+		84BD4F5C1E5D405B0098962A /* ViewContollers */ = {
+			isa = PBXGroup;
+			children = (
+				84BD4F431E5C14FA0098962A /* ViewController.swift */,
+				84BD4F651E5D5E4D0098962A /* UpcomingViewController.swift */,
+				84BD4F611E5D51FC0098962A /* AddingUpcomingViewController.swift */,
+				84BD4F671E5D5E8A0098962A /* AddBirthdayViewController.swift */,
+				84BD4F691E5D5ECE0098962A /* CardViewController.swift */,
+				84BD4F6D1E5D69160098962A /* UpcomingCell.swift */,
+			);
+			name = ViewContollers;
+			sourceTree = "<group>";
+		};
+		84BD4F5D1E5D406D0098962A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84BD4F631E5D55390098962A /* Upcoming.swift */,
+				84BD4F6B1E5D616C0098962A /* postStruct.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		84BD4F5E1E5D40A20098962A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				84BD4F481E5C14FA0098962A /* EmblemDataBase.xcdatamodeld */,
+				84BD4F501E5C14FA0098962A /* Info.plist */,
+			);
+			name = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84BD4F531E5C14FA0098962A /* Build configuration list for PBXNativeTarget "EmblemDataBase" */;
 			buildPhases = (
+				9C1EAFFCA4B266DED9885271 /* [CP] Check Pods Manifest.lock */,
 				84BD4F3A1E5C14FA0098962A /* Sources */,
 				84BD4F3B1E5C14FA0098962A /* Frameworks */,
 				84BD4F3C1E5C14FA0098962A /* Resources */,
+				C396941C9E0553D5B1E3C485 /* [CP] Embed Pods Frameworks */,
+				C2599B661BB4EA28485857E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84BD4F4F1E5C14FA0098962A /* LaunchScreen.storyboard in Resources */,
+				84BD4F571E5C159E0098962A /* GoogleService-Info.plist in Resources */,
 				84BD4F4C1E5C14FA0098962A /* Assets.xcassets in Resources */,
 				84BD4F471E5C14FA0098962A /* Main.storyboard in Resources */,
 			);
@@ -134,14 +213,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9C1EAFFCA4B266DED9885271 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2599B661BB4EA28485857E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmblemDataBase/Pods-EmblemDataBase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C396941C9E0553D5B1E3C485 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EmblemDataBase/Pods-EmblemDataBase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84BD4F3A1E5C14FA0098962A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BD4F661E5D5E4D0098962A /* UpcomingViewController.swift in Sources */,
+				84BD4F701E5EA5840098962A /* TableViewTest.swift in Sources */,
+				84BD4F6E1E5D69160098962A /* UpcomingCell.swift in Sources */,
 				84BD4F441E5C14FA0098962A /* ViewController.swift in Sources */,
+				84BD4F681E5D5E8A0098962A /* AddBirthdayViewController.swift in Sources */,
+				84BD4F641E5D55390098962A /* Upcoming.swift in Sources */,
+				84BD4F6A1E5D5ECE0098962A /* CardViewController.swift in Sources */,
+				84BD4F621E5D51FC0098962A /* AddingUpcomingViewController.swift in Sources */,
 				84BD4F4A1E5C14FA0098962A /* EmblemDataBase.xcdatamodeld in Sources */,
 				84BD4F421E5C14FA0098962A /* AppDelegate.swift in Sources */,
+				84BD4F6C1E5D616C0098962A /* postStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +397,7 @@
 		};
 		84BD4F541E5C14FA0098962A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 801C33D8DF9408C710F201B2 /* Pods-EmblemDataBase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EmblemDataBase/Info.plist;
@@ -274,6 +410,7 @@
 		};
 		84BD4F551E5C14FA0098962A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3BD053E8D1493E8C53B55A2 /* Pods-EmblemDataBase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = EmblemDataBase/Info.plist;
@@ -303,6 +440,7 @@
 				84BD4F551E5C14FA0098962A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
